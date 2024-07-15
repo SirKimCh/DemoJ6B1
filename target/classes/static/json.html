@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Json</title>
+</head>
+<body>
+<h1>Demo Json</h1>
+<script>
+    var student = {
+        "name": "Minh",
+        "gender": true,
+        "grade": 90.0,
+        "contact": {
+            "phone": "123456789",
+            "email": "kimchiman@gmail.com"
+        },
+        "subjects": ["Math", "English", "Computer"]
+    };
+    console.log(student);
+    student.name = student.name.toUpperCase();
+    console.log(student.name, student.contact.email, student.subjects[0]);
+    for (var key in student) {
+        console.log(key, student[key]);
+    }
+    var text = JSON.stringify(student);
+    console.log(text);
+
+    var obj = JSON.parse(text);
+    console.log(obj);
+</script>
+</body>
+</html>

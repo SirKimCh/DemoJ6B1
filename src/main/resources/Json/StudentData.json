@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Minh Tron",
+    "gender": true,
+    "grade": 90.0,
+    "contact": {
+      "phone": "123456789",
+      "email": "kimchiman@gmail.com"
+    },
+    "subjects": [
+      "Math",
+      "English",
+      "Computer"
+    ]
+  },
+  {
+    "name": "The Trung",
+    "gender": false,
+    "grade": 50.0,
+    "contact": {
+      "phone": "0789123456",
+      "email": "kimchi@gmail.com"
+    },
+    "subjects": [
+      "Math",
+      "History",
+      "Chemistry"
+    ]
+  },
+  {
+    "name": "Toan Trung",
+    "gender": true,
+    "grade": 80.0,
+    "contact": {
+      "phone": "0789654123",
+      "email": "man@gmail.com"
+    },
+    "subjects": [
+      "Spanish",
+      "Leadership",
+      "Computer"
+    ]
+  }
+]
